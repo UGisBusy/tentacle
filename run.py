@@ -8,6 +8,7 @@ win = pg.window.Window()
 seg_list = [UGsegment.segment((0,0),LEN) for i in range(NUM)]
 
 print('hi')
+print('branch test')
 
 def draw(x2, y2):
     batch = pg.graphics.Batch()
