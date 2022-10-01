@@ -7,6 +7,8 @@ LEN = 50
 win = pg.window.Window()
 seg_list = [UGsegment.segment((0,0),LEN) for i in range(NUM)]
 
+print('hi')
+
 def draw(x2, y2):
     batch = pg.graphics.Batch()
     for i in range(len(seg_list)):
